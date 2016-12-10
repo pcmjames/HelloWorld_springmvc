@@ -1,0 +1,8 @@
+diff a/src/main/java/controller/Github.java b/src/main/java/controller/Github.java	(rejected hunks)
+@@ -10,5 +10,6 @@
+ 
+     public void hello(String name){
+         System.out.println(name);
++        System.out.println("pcmtest");
+     }
+ }
