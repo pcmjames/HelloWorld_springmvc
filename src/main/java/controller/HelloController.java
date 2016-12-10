@@ -15,6 +15,7 @@ public class HelloController
     @RequestMapping("/hello/{id}")
     public String hello(@PathVariable String id ){
         System.out.println(id);
+        System.out.println("githubs");
         return "success";
     }
 
